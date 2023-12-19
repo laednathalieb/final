@@ -1,0 +1,198 @@
+a{
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid aqua;
+    margin-left: 5px;
+    margin-right: 50px;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+.navigation {
+    background-color: darkgreen;
+    text-align: center;
+    border-top: 3px solid gold;
+    border-bottom: 3px solid gold;
+}
+.CIT{
+    font-size: 50px;
+    color: aliceblue;
+    text-align: center;
+}
+.nav{
+    margin: 30px;
+    text-align: right;
+}
+a:hover{
+    background-color: lightblue;
+    color: green;
+    padding: 10px;
+}
+.navigation img{
+    width: 90px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+section img{
+    width: 90px;
+    height: 90px;
+}
+.citpicture{
+    width: 100%;
+    height: 400px;
+}
+.flex-container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.HISTORY{
+    background-color: yellow;
+    padding: 20px;
+    font-size: 20px;
+}
+.ABOUT{
+    padding: 20px;
+    font-size: 20px;
+    background-color: antiquewhite;
+}
+body{
+    background-color: lightgreen;
+}
+.titlebox{
+    text-align: center;
+    margin: 100px auto 50px;
+}
+.DIT{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.wrapper{
+    text-align: center;
+}
+.tables1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+.tables1 img{
+    width: 200px;
+    margin-bottom: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 1000px) {
+    body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: lightgreen;
+        margin: 0;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+  
+      .container {
+        max-width: 650px;
+        margin: 0 auto;
+      }
+  
+      a {
+        padding: 10px;
+        text-transform: uppercase;
+        text-decoration: none;
+        border: 2px solid yellow;
+        margin-left: 5px;
+        margin-right: 50px;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+      }
+  
+      .navigation {
+        background-color: darkgreen;
+        text-align: center;
+        border-top: 3px solid gold;
+        border-bottom: 3px solid gold;
+      }
+  
+      .CIT {
+        font-size: 50px;
+        color: aliceblue;
+        text-align: center;
+      }
+  
+      .nav {
+        margin: 30px;
+        text-align: right;
+      }
+  
+      a:hover {
+        background-color: yellow;
+        color: lightgreen;
+        padding: 10px;
+      }
+  
+      .navigation img {
+        width: 90px;
+        margin-right: 30px;
+        margin-top: 10px;
+      }
+  
+      section img {
+        width: 90px;
+        height: 90px;
+      }
+  
+      .citpicture {
+        width: 100%;
+        height: 400px;
+      }
+  
+      .flex-container {
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+      }
+  
+      .HISTORY,
+      .ABOUT {
+        padding: 20px;
+        font-size: 20px;
+      }
+  
+      .HISTORY {
+        background-color:lightcyan;
+      }
+  
+      .titlebox {
+        text-align: center;
+        margin: 100px auto 50px;
+      }
+  
+      .DIT {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+  
+      .wrapper {
+        text-align: center;
+      }
+  
+      .tables1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+      }
+  
+      .tables1 img {
+        width: 200px;
+        margin-bottom: 400px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+      }   
+    
+}
